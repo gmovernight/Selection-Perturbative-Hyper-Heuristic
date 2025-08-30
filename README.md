@@ -1,6 +1,6 @@
 # Selection Perturbative Hyper‑Heuristic (SPHH)
 
-This is my reproducible Python implementation of a **single‑point Selection Perturbative Hyper‑Heuristic (SPHH)** with a benchmark suite (f1–f24) from the Research Paper: "A modified particle swarm optimization algorithm based on velocity updating mechanism by Chunfeng Wang and Wenxin Song" and a full experiment pipeline: run all problems across multiple seeds, aggregate results, export publication‑ready tables, and plot **log‑scaled optimality‑gap** convergence curves.
+This is my reproducible Python implementation of a **single‑point Selection Perturbative Hyper‑Heuristic (SPHH)** with a benchmark suite (f1–f24) from the Research Paper: **"A modified particle swarm optimization algorithm based on velocity updating mechanism by Chunfeng Wang and Wenxin Song"** and a full experiment pipeline: run all problems across multiple seeds, aggregate results, export publication‑ready tables, and plot **log‑scaled optimality‑gap** convergence curves.
 
 > Python 3.10+ is recommended. Dependencies: **numpy**, **matplotlib**.
 
@@ -154,6 +154,7 @@ Edit **`exp_config.py`**:
 - The aggregator and table builders are pure functions of the CSV outputs – delete `results/` and re‑run to regenerate everything.
 
 ---
+
 
 
 
